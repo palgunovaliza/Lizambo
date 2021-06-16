@@ -1,0 +1,75 @@
+@import "reset.css";
+
+body{
+overflow-x: hidden;
+}
+
+.fon {
+  position: absolute;
+  width: 100%;
+  top: -11vw;
+}
+
+.back {
+  position: fixed;
+  width: 2%;
+  margin: -0.2vw 1.8vw;
+  z-index: 3;
+}
+
+.video {
+  position: relative;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.web-site {
+  position: relative;
+  top: 20vw;
+  margin-left: 8%;
+}
+
+.site {
+  position: relative;
+  width: 91%;
+  top: 7vw;
+}
+
+.arrow {
+  position: absolute;
+  left: -6%;
+  width: 79%;
+  z-index: 2;
+}
+
+.identity {
+  position: relative;
+  top: 50vw;
+}
+
+.text {
+  width: 20%;
+  margin-left: 14%;
+}
+
+.tatoo {
+  margin-left: -10%;
+  margin-top: -11%;
+  width: 120%;
+}
+
+.zine {
+  position: relative;
+  top: 70vw;
+}
+
+.zinep {
+  width: 90%;
+  margin-top: 8vw;
+  margin-left: 5%;
+}
+
+.icons {
+  margin: 11% 45% 0%;
+
+}

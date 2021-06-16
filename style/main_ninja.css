@@ -1,0 +1,112 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+font-family: 'Oswald', sans-serif;
+background-color: black;
+overflow-x: hidden;
+}
+
+.back {
+  position: fixed;
+  width: 2%;
+  margin: -0.2vw 1.8vw;
+  z-index: 99;
+}
+
+.video {
+  /* position: relative; */
+  text-align: center;
+  margin-top: 1.5%;
+  z-index: 2;
+}
+
+a.longrid {
+  position: relative;
+  color: white;
+  font-size: 17pt;
+  margin-left: 48%;
+  margin-top: -3vw;
+}
+
+.png1 {
+  /* position: relative; */
+  border: 0.1px solid #2F2E2E;
+  width: 70%;
+  margin: 10vw 15%;
+}
+
+.b {
+  position: relative;
+  margin-top: 4vw;
+  text-align: center;
+}
+
+.b1,
+.b2 {
+  width: 13vw;
+  margin-right: 3vw;
+}
+
+.b3,
+.b4 {
+  width: 11vw;
+  margin-left: 3vw;
+}
+
+.arrow {
+  width: 4vw;
+  transform: rotateY(180deg);
+  margin: 4vw 5vw;
+
+}
+
+p {
+  color: white;
+  font-size: 15pt;
+  /* margin-left: 10%; */
+  margin-top: 7vw;
+ }
+
+ .png2,
+ .png3 {
+   /* position: relative; */
+   border: 0.1px solid #2F2E2E;
+   width: 55%;
+   margin: 10vw 10%;
+ }
+
+ .png3 {
+   position: absolute;
+   margin: 37vw -42%;
+   z-index: 2;
+ }
+
+
+  .png4,
+  .png5,
+  .png6 {
+    /* position: relative; */
+    border: 0.1px solid #2F2E2E;
+    width: 27%;
+    margin: 15vw 9%;
+    z-index: 3;
+  }
+
+  .png5 {
+    position: absolute;
+    margin: 24vw 18%;
+    z-index: 4;
+  }
+
+  .png6 {
+    position: absolute;
+    margin: 40vw -12%;
+    z-index: 8;
+  }
+
+  .png7 {
+    border: 0.1px solid #2F2E2E;
+    width: 70%;
+    margin: 20vw 15% 8vw 15%;
+  }

@@ -1,0 +1,141 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+font-family: 'Oswald', sans-serif;
+background-color: #F4F4F4;
+overflow-x: hidden;
+}
+
+.details,
+.logo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.detail_A,
+.detail_B,
+.detail_C,
+.detail_D {
+  position: fixed;
+  width: 1.6vw;
+  transform: rotate(90deg);
+  margin: 1.8vw;
+}
+
+.detail_B {
+  transform: rotate(180deg);
+  right: 0;
+}
+
+.detail_C {
+  transform: rotate(270deg);
+  bottom: 0;
+  right: 0;
+}
+
+.detail_D {
+  transform: rotate(360deg);
+  left: 0;
+  bottom: 0;
+}
+
+
+.name{
+  position: fixed;
+  font-size: 17pt;
+  width: 100%;
+  margin-top: 1.2vw;
+  text-align: center;
+}
+/*
+.me {
+  position: fixed;
+  left: 48%;
+  width: 4vw;
+  z-index: 99;
+} */
+
+.icon1,
+.icon2 {
+  position: fixed;
+  width: 2vw;
+  margin-left: 1.5vw;
+  top: 42%;
+}
+
+.icon2 {
+  margin-top: 5vw;
+}
+
+.text {
+  margin: -1.1vw ;
+  top: 12vw;
+}
+
+.date {
+  margin: 1.5vw ;
+  bottom: 7vw;
+}
+
+h2 {
+  width: 100%;
+  font-size: 15pt;
+  line-height: 2vw;
+  margin-bottom: 1vw;
+}
+
+p {
+  position: fixed;
+  font-size: 13pt;
+  transform: rotate(90deg);
+  right: 0;
+}
+
+
+a {
+  color: black;
+  z-index: 100;
+}
+
+a:hover {
+  opacity: 80%;
+}
+
+.project {
+  font-size: 14pt;
+  display: block;
+  text-align: center;
+  margin-top: 1vw;
+}
+
+ul {
+  font-size: 15pt;
+  margin-top: 1.7vw;
+}
+
+li{
+  padding-top: 0.5vw;
+  margin-left: 1vw;
+}
+
+.video {
+  display: block;
+}
+
+.last_seen{
+  display: block;
+  position: relative;
+  margin: 8vw 12vw;
+}
+
+.zapozdavchii,
+.ninja {
+  display: block;
+  position: relative;
+  margin: 15vw 12vw 2vw;
+}
+
+/* LAST SEEN */
