@@ -105,7 +105,7 @@ a:hover {
 }
 
 .project {
-  font-size: 14pt;
+  font-size: 15pt;
   display: block;
   text-align: center;
   margin-top: 1vw;
@@ -128,14 +128,14 @@ li{
 .last_seen{
   display: block;
   position: relative;
-  margin: 8vw 12vw;
+  margin: 8vw 15vw;
 }
 
 .zapozdavchii,
 .ninja {
   display: block;
   position: relative;
-  margin: 15vw 12vw 2vw;
+  margin: 15vw 15vw 2vw;
 }
 
 /* LAST SEEN */
